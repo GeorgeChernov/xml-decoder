@@ -1,14 +1,15 @@
 {
   "name": "xml-decoder",
   "main": "./lib/xml-decoder",
-  "version": "0.0.0",
-  "description": "A short description of your package",
+  "version": "1.0.0",
+  "description": "It allows to decode XML. It converts &lt;test&gt;&lt;/test&gt; to <test></test>.",
   "keywords": [
+    "xml", "decode"
   ],
   "activationCommands": {
     "atom-workspace": "xml-decoder:decode"
   },
-  "repository": "https://github.com/atom/xml-decoder",
+  "repository": "https://github.com/GeorgeChernov/xml-decoder",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
